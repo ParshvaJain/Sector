@@ -18,7 +18,7 @@ import com.sector.model.Sector;
 import com.sector.repository.SectorRepository;
 import com.sector.message.ResponseMessage;
 
-@CrossOrigin(origins = "*", maxAge = 3600)
+//@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping(value = "/sector")
 public class SectorController {
