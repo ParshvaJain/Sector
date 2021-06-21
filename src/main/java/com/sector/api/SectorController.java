@@ -18,7 +18,7 @@ import com.sector.model.Sector;
 import com.sector.repository.SectorRepository;
 import com.sector.message.ResponseMessage;
 
-//@CrossOrigin(origins = "*", maxAge = 3600)
+@CrossOrigin(origins ="https://reactapp--service.herokuapp.com")
 @RestController
 @RequestMapping(value = "/sector")
 public class SectorController {
